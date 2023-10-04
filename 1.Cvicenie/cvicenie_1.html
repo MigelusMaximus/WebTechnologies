@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="cvicenie_1.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="cvicenie_1.js" ></script>
+   
+</head>
+<body>
+
+   <p id="blue_text" onclick="turn_blue()">https://www.w3schools.com/jquery/default.asp</p> 
+    
+
+   <p onclick="first_p_action()" id="first">AAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+   <p onclick="second_p_action()" id="second">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+   <p class="green" id="third" onclick="third_p_action()">ccccccccccccccccccccccccccccccccccc</p>
+   <p class="green" id="fourth" onclick="fourth_p_action()">dddddddddddddddddddddddddddddddddddddd</p>
+
+
+   <form id="myForm">
+    Name:<input class="color-changing-input" id="first_input" type="text">
+    <br>
+    <br>
+    Email:<input     class="color-changing-input" id="second_input" type="text">
+
+
+   </form>
+<br><br><br>
+<script src="toggle.js" ></script>
+   <button id="toggle-button">Toggle Paragraph</button>
+   <p id="toggle-paragraph">This is a paragraph to hide and show.</p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.color-changing-input {
+    background-color: green;
+  }
+  .color-changing-input:focus {
+    background-color: turquoise;
+  }
+  
+
+  #toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #toggle-paragraph {
+    font-size: 18px;
+  }
+  
