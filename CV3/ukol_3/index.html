@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cvicenie3_ukol3</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form target="calc.php" method="POST">
+        <label for="a">a: </label>
+        <input name="a" id="a" type="number" />
+
+        <select name="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <label for="b">b: </label>
+        <input name="b" id="b" type="number" />
+
+        <button type="submit">Submit</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>

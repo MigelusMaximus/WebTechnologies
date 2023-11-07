@@ -1,0 +1,29 @@
+<table border="1px black solid">
+    <tbody>
+        <tr>
+            <th>Produkt</th>
+            <th>Popis</th>
+            <th>Cena</th>
+        </tr>
+        <tr>
+            <td>Intel Core i5</td>
+            <td>Velmi výkonný procesor</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>AMD A8-7650K</td>
+            <td>Výkonný 4-jádrový AMD procesor</td>
+            <td>2600</td>
+        </tr>
+        <tr>
+            <td>Samsung SSD 850 EVO 250GB</td>
+            <td>Výkonný značkový SSD disk s dostačující kapacitou</td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>Kingston 2x8GB DDR4 2133</td>
+            <td>Výkonná dvojice operačních pamětí pro stolní PC</td>
+            <td>1900</td>
+        </tr>
+    </tbody>
+</table>
